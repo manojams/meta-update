@@ -11,4 +11,4 @@ do_install:append:class-target() {
 
 FILES:${PN}:append:class-target = " ${sysconfdir}"
 
-COMPATIBLE_MACHINE = "neu6b-update"
+COMPATIBLE_MACHINE = "neu6b-update|neu6b-up-update"
